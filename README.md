@@ -52,6 +52,31 @@ Exemplu nr.2: Autentificare reusita
   + Date: `Mon, 16 Sep 2024 15:45:17 GMT`
   + Server: `nginx/1.24.0 (Ubuntu)`
 
+## Sarcina nr.2
+
+1. Scrieți o cerere de tip `GET` către server la adresa `http://sandbox.com`, indicând în antetul `User-Agent` numele și prenumele dvs.
+   + ![image](https://github.com/user-attachments/assets/df51e8a3-c52a-44e5-b586-e6272d35a3f9)
+
+2. Scrieți o cerere de tip `POST` către server la adresa `http://sandbox.com/cars`, indicând în corpul cererii următorii parametri:
+   + make: Toyota
+   + model Corolla
+   + year 2020
+   + ![image](https://github.com/user-attachments/assets/436e5ceb-3486-45d0-abbc-bf0dd6356b5e)
+
+3. Scrieți o cerere de tip `PUT` către server la adresa `http://sandbox.com/cars/1`, indicând în antetul `User-Agent` numele și prenumele dvs., în antetul `Content-Type` valoarea `application/json`, iar în corpul cererii următorii parametri: json { "make": "Toyota", "model": "Corolla", "year": 2021 }
+   + ![image](https://github.com/user-attachments/assets/c3d976bb-2ba5-4204-9fc3-b52863e40a41)
+   + ![image](https://github.com/user-attachments/assets/08dea5df-b38c-484b-924b-523c2acbd632)
+
+4. Scrieți unul dintre posibilele răspunsuri ale serverului la cererea anterioară. http POST /cars HTTP/1.1 Host: sandbox.com Content-Type: application/json User-Agent: John Doe model=Corolla&make=Toyota&year=2020 Presupuneți situațiile în care serverul poate returna codurile de stare HTTP 200, 201, 400, 401, 403, 404, 500.
+   + Codul de stare 201 (Created).
+
+5.   Scrieți o cerere de tip DELETE la alegerea dvs. și să explicați de ce, în acest caz, este potrivit să utilizați metoda DELETE.
+   + ![image](https://github.com/user-attachments/assets/daea5e70-b37d-47f2-b35b-bca938c97465)
+
+
+
+
+
 
 
 ## Sarcina nr.3
