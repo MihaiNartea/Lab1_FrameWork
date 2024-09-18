@@ -67,10 +67,10 @@ Exemplu nr.2: Autentificare reusita
    + ![image](https://github.com/user-attachments/assets/c3d976bb-2ba5-4204-9fc3-b52863e40a41)
    + ![image](https://github.com/user-attachments/assets/08dea5df-b38c-484b-924b-523c2acbd632)
 
-4. Scrieți unul dintre posibilele răspunsuri ale serverului la cererea anterioară. http POST /cars HTTP/1.1 Host: sandbox.com Content-Type: application/json User-Agent: John Doe model=Corolla&make=Toyota&year=2020 Presupuneți situațiile în care serverul poate returna codurile de stare HTTP 200, 201, 400, 401, 403, 404, 500.
+4. Scrieți unul dintre posibilele răspunsuri ale serverului la cererea anterioară. `http POST /cars HTTP/1.1` `Host: sandbox.com` `Content-Type: application/json` `User-Agent: John Doe` `model=Corolla&make=Toyota&year=2020` Presupuneți situațiile în care serverul poate returna codurile de stare HTTP `200`, `201`, `400`, `401`, `403`, `404`, `500`.
    + Codul de stare 201 (Created).
 
-5.   Scrieți o cerere de tip DELETE la alegerea dvs. și să explicați de ce, în acest caz, este potrivit să utilizați metoda DELETE.
+5.   Scrieți o cerere de tip `DELETE` la alegerea dvs. și să explicați de ce, în acest caz, este potrivit să utilizați metoda `DELETE`.
    + ![image](https://github.com/user-attachments/assets/daea5e70-b37d-47f2-b35b-bca938c97465)
 
 
